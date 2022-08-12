@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Passion One');
+@import url('https://fonts.googleapis.com/css?family=Faster One');
+
+
+
+#stark {
+    color: rgb(32, 108, 32);
+    font-family: 'Passion One';
+    font-size: 20px;
+}
+
+.Special-Agent-In-Charge {
+    color: rgb(32, 108, 32);
+    font-family: 'Passion One';
+    font-size: 20px;
+}
+
+.Special-Agent {
+    color: rgb(69, 220, 69);
+    font-family: 'Passion One';
+    font-size: 20px;
+}
+
+.Chief-Operational-Agent {
+    color: rgb(21, 99, 182);
+    font-family: 'Passion One';
+    font-size: 20px;
+}
+
+.Operational-Agent {
+    color: cyan;
+    font-family: 'Passion One';
+    font-size: 20px;
+}
+
+.spec {
+    background-image: url(../images/wLSu3.png);
+}
+
+
+
+.announcement {
+    color: aquamarine;
+}
+
+.video {
+    position: absolute;
+    z-index: -100000;
+    
+}
+
+
+@media (min-aspect-ratio: 16/9) {
+    .video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-aspect-ratio: 16/9) {
+    .video {
+        height: 100%;
+        width: auto;
+    }
+}
+
+.myPage {
+    background-image: url(../images/back1.jpg);
+    background-repeat: no-repeat;
+    /* min-height:350px; */
+    /* max-height:600px; */
+    background-size: cover;
+}
+
+
+.universal {
+    display: flex;
+    justify-content: center;
+    position: static;
+    font-family: 'Faster One';
+}
+
+#marvel {
+    position: static;
+    color: red;
+    font-size: 50px;
+    position: static;
+    font-family: 'Faster One';
+}
+
+
+.staff {
+    color: red;
+}
+

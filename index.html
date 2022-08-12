@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Marvel Community" />
+    <meta name="keywords" content="Marvel, Movie, Marvel Community" />
+    <meta name="author" content="Tigisha" />
+    <meta property="og:url" content="#" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Marvel Community" />
+    <meta property="og:description" content="Web For Marvel Fans" />
+    <title>Marvel Community</title>
+    <link rel="icon" href="images/ea0539f2ec68c44869860d9d968fb50f.jpg" type="image/icon type" />
+    <meta property="og:image" content="images/1-10313_latest-marvel-logo-marvel-avengers-xmen-logo-logan.png" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Marvel Community</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://discord.com/invite/f7fJkKRzzU">Discord</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+    <!-- <div style="height: 1000px">
+        </body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script> -->
+
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+</html>
